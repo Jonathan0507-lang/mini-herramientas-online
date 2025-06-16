@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini Herramientas Online</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🧰 Mini Herramientas Online</h1>
+    <p>Pequeñas utilidades para tu día a día</p>
+  </header>
+
+  <main>
+    <section class="tool" id="password-generator">
+      <h2>🔐 Generador de Contraseñas Seguras</h2>
+      <div class="form-group">
+        <label for="length">Longitud:</label>
+        <input type="number" id="length" value="12" min="4" max="32" />
+      </div>
+      <button onclick="generatePassword()">Generar Contraseña</button>
+      <p class="output" id="password-output"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 - Herramientas creadas por Jonathan</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
